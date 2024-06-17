@@ -8,12 +8,20 @@ The sample notebooks and the workflow templates demonstrate as to how to product
 
 ## Content Structure
 
-This Directory is Divided into 2 sub categories :
-- [Examples](https://github.com/SAP-samples/ai-core-samples/tree/main/02_ai_core/examples) : contains Example codes for AI Core.
-- [Tutorials](https://github.com/SAP-samples/ai-core-samples/tree/main/02_ai_core/tutorials) : Contains Tutorials on how to use AI core.
-
-list of current tutorials include:   
-  - [Create your first machine learning project using SAP AI Core](https://github.com/SAP-samples/ai-core-samples/tree/main/02_ai_core/tutorials/01_create_your_first_machine_learning_project_using_sap_ai_core)
+```
+.
+├── <tutorial-name>/                Descriptive name
+│   ├── utils/                      Utilities
+│   ├── <notebook-name>.ipynb       Main Jupyter Notebook
+│   └── credentials.yaml            Credentials related to the tutorial
+│
+.
+.
+.
+│
+├── credentials.yaml.template       Template for credentials storage
+└── README.md
+```
 
 ## Getting credentials via BTP platform
 
@@ -38,3 +46,9 @@ Replace the placeholders with the credentials Json file values.
 ## SAP AI Launchpad app
 
 [Baitcon development - SAP AI Launchpad](https://baitcondevelopment.ai-launchpad.prod.us-east-1.aws.apps.ml.hana.ondemand.com/)
+
+## Tutorials
+
+|Turorial name|URL|Repoitory|Comments|
+|-------------|---|---------|--------|
+|Set Up Tools to Connect With and Operate SAP AI Core|[Set up tools](https://developers.sap.com/tutorials/ai-core-setup.html)|[01](https://github.com/SAP-samples/ai-core-samples/tree/main/02_ai_core/tutorials/01_create_your_first_machine_learning_project_using_sap_ai_core/01_01_set_up_tools_to_connect_with_and_operate_sap_ai_core)||
