@@ -51,4 +51,5 @@ Replace the placeholders with the credentials Json file values.
 
 |Turorial name|URL|Repoitory|Comments|
 |-------------|---|---------|--------|
-|Set Up Tools to Connect With and Operate SAP AI Core|[Set up tools](https://developers.sap.com/tutorials/ai-core-setup.html)|[01](https://github.com/SAP-samples/ai-core-samples/tree/main/02_ai_core/tutorials/01_create_your_first_machine_learning_project_using_sap_ai_core/01_01_set_up_tools_to_connect_with_and_operate_sap_ai_core)||
+|Set Up Tools to Connect With and Operate SAP AI Core|[ai-core-setup](https://developers.sap.com/tutorials/ai-core-setup.html)|[01](https://github.com/SAP-samples/ai-core-samples/tree/main/02_ai_core/tutorials/01_create_your_first_machine_learning_project_using_sap_ai_core/01_01_set_up_tools_to_connect_with_and_operate_sap_ai_core)||
+|Quick Start for Your First AI Project Using SAP AI Core|[ai-core-helloworld](https://developers.sap.com/tutorials/ai-core-helloworld.html)|[02]https://github.com/SAP-samples/ai-core-samples/tree/main/02_ai_core/tutorials/01_create_your_first_machine_learning_project_using_sap_ai_core/01_02_quick_start_for_your_first_ai_project_using_ai_core)||
