@@ -4,7 +4,7 @@ from sklearn import datasets
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeRegressor
 
-data_house = datasets.fetch_california_housing() # Load Datasets
+data_house = datasets.fetch_california_housing(data_home='/app/src') # Load Datasets
 X = data_house['data']
 y = data_house['target']
 
