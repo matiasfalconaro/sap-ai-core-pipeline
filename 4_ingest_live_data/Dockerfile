@@ -9,7 +9,7 @@ RUN mkdir -p /app/data/
 RUN mkdir -p /app/model/
 #
 # Copies file from your Local system TO path in Docker image
-COPY main.py /app/src/
+COPY hello_aicore_data/main.py /app/src/
 COPY requirements.txt /app/src/  
 #
 # Installs dependencies within you Docker image
